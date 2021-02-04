@@ -29,7 +29,6 @@ spec:
       - name: cs16
         image: eu.gcr.io/martinhajducik/cs16:latest
         imagePullPolicy: Always
-        name: cs16-1
         env:
         - name: MAXPLAYERS
           value: "32"
