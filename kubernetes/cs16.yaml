@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   creationTimestamp: 2016-02-18T18:52:05Z
   name: cs16-admin
-  namespace: cs
+  namespace: default
 data:
   users.ini: |
     "STEAM_0:1:978447" "" "abcdefghijklmnopqrstuz" "ce"
