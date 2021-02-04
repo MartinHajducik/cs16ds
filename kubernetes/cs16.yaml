@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: cs16
-        image: cs16
+        image: eu.gcr.io/martinhajducik/cs16:latest
         env:
         - name: MAXPLAYERS
           value: "32"
