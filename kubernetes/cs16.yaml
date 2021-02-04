@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: cs16
-        image: mattiashem/cs16
+        image: docker.io/mattiashem/cs16
         env:
         - name: MAXPLAYERS
           value: "32"
