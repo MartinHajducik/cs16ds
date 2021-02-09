@@ -5,7 +5,7 @@ ARG steam_password=
 ARG metamod_version=1.20
 ARG amxmod_version=1.8.2
 
-RUN apt update && apt install -y --reinstall ca-certificates --no-install-recommends lib32gcc1 curl  && rm -rf /var/lib/apt/lists/*
+RUN apt update && apt install -y --no-install-recommends lib32gcc1 curl  && rm -rf /var/lib/apt/lists/*
 
 # Install SteamCMD
 RUN mkdir -p /opt/steam && cd /opt/steam && \
