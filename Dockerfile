@@ -1,4 +1,5 @@
-FROM debian:jessie
+ARG ARCH=amd64
+FROM ${ARCH}debian:buster-slim
 
 LABEL maintainer "Tomas Adomavicius <tomas@adomavicius.com>"
 
