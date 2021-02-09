@@ -1,4 +1,4 @@
-FROM amd64/debian:buster-slim
+FROM debian:buster-slim
 
 LABEL maintainer "Tomas Adomavicius <tomas@adomavicius.com>"
 
